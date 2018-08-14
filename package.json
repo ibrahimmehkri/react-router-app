@@ -12,6 +12,22 @@
   },
   "author": "ibrahim mehkri",
   "license": "ISC",
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "6.18.2",
+    "babel-loader": "6.2.4",
+    "babel-preset-react": "6.5.0",
+    "webpack": "2.4.1",
+    "react": "15.5.4",
+    "react-dom": "15.5.4"
+  },
+  "dependencies": {
+
+  },
   "bugs": {
     "url": "https://github.com/ibrahimmehkri/react-router-app/issues"
   },
