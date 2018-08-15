@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./jsx/app.js",
+  entry: "./jsx/app.jsx",
   output: {
     filename: "bundle.js",
     path: __dirname + "/js/",
@@ -9,7 +9,7 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: /(node_modules)/,
-        loader: "babel-loader" 
+        loader: "babel-loader"
       }
     ]
   }
